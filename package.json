@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "npm run build && node ./bin/www",
+    "quickstart": "node ./bin/www",
     "react-start": "react-scripts start",
     "build": "react-scripts build"
   },
